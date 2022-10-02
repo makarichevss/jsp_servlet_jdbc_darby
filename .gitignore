@@ -1,6 +1,6 @@
 target/
 .mvn
-mvnv%
+mvnw*
 .idea
 !**/src/main/**/target/
 !**/src/test/**/target/
