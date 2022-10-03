@@ -1,4 +1,4 @@
-package comm;
+package pack;
 
 public class Student {
     private String firstName;

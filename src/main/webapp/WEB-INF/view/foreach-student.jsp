@@ -1,5 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page import="comm.Student" %>
+<%@ page import="pack.Student" %>
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.ArrayList" %>
 
