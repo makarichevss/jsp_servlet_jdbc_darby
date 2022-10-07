@@ -25,4 +25,14 @@
         <servlet-name>StudentServlet</servlet-name>
         <url-pattern>/StudentServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MvcDemoServlet2</servlet-name>
+        <servlet-class>pack.MvcDemoServlet2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MvcDemoServlet2</servlet-name>
+        <url-pattern>/MvcDemoServlet2</url-pattern>
+    </servlet-mapping>
 </web-app>
