@@ -1,37 +1,59 @@
 package pack;
 
 public class Student {
-    private String firstName;
-    private String lastName;
-    private boolean isCustomer;
 
-    public Student(String firstName, String lastName, boolean isCustomer) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.isCustomer = isCustomer;
-    }
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String email;
 
-    public String getFirstName() {
-        return firstName;
-    }
+	public Student(String firstName, String lastName, String email) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+	}
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+	public Student(int id, String firstName, String lastName, String email) {
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+	}
 
-    public String getLastName() {
-        return lastName;
-    }
+	public int getId() {
+		return id;
+	}
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    public boolean isCustomer() {
-        return isCustomer;
-    }
+	public String getFirstName() {
+		return firstName;
+	}
 
-    public void setCustomer(boolean customer) {
-        isCustomer = customer;
-    }
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
+	}	
 }
